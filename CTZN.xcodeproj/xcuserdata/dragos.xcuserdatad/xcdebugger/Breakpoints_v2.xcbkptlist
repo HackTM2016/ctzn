@@ -38,7 +38,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "regions/AppDelegate.swift"
@@ -51,14 +51,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "CTZN.AppDelegate.locationManager.getter : __ObjC.CLLocationManager"
                   moduleName = "CTZN"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dragos/Swift%20Projects/CTZN2/regions/AppDelegate.swift"
-                  timestampString = "485564909.369613"
+                  timestampString = "485594904.388868"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -66,14 +66,14 @@
                   offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "CTZN.AppDelegate.init () -&gt; CTZN.AppDelegate"
                   moduleName = "CTZN"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dragos/Swift%20Projects/CTZN2/regions/AppDelegate.swift"
-                  timestampString = "485564909.3698"
+                  timestampString = "485594904.389087"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"

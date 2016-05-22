@@ -15,6 +15,16 @@
 		D84D2F841ACD622600B98C3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84D2F821ACD622600B98C3A /* LaunchScreen.xib */; };
 		D84D2F901ACD622600B98C3A /* regionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84D2F8F1ACD622600B98C3A /* regionsTests.swift */; };
 		E6D00FA11CF1352300371302 /* VoiceNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D00FA01CF1352300371302 /* VoiceNotifications.swift */; };
+		E6D00FAA1CF199C500371302 /* 3A.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FA51CF199C500371302 /* 3A.png */; };
+		E6D00FAB1CF199C500371302 /* 4A.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FA61CF199C500371302 /* 4A.png */; };
+		E6D00FAC1CF199C500371302 /* 5A.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FA71CF199C500371302 /* 5A.png */; };
+		E6D00FAD1CF199C500371302 /* 6A .png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FA81CF199C500371302 /* 6A .png */; };
+		E6D00FAE1CF199C500371302 /* 7A.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FA91CF199C500371302 /* 7A.png */; };
+		E6D00FBB1CF1BB8600371302 /* deals_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FBA1CF1BB8600371302 /* deals_btn.png */; };
+		E6D00FC01CF1BC3000371302 /* disabled_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FBC1CF1BC3000371302 /* disabled_btn.png */; };
+		E6D00FC11CF1BC3000371302 /* health_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FBD1CF1BC3000371302 /* health_btn.png */; };
+		E6D00FC21CF1BC3000371302 /* tourism_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FBE1CF1BC3000371302 /* tourism_btn.png */; };
+		E6D00FC31CF1BC3000371302 /* transport_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D00FBF1CF1BC3000371302 /* transport_btn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,16 @@
 		D84D2F8E1ACD622600B98C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D84D2F8F1ACD622600B98C3A /* regionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regionsTests.swift; sourceTree = "<group>"; };
 		E6D00FA01CF1352300371302 /* VoiceNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceNotifications.swift; sourceTree = "<group>"; };
+		E6D00FA51CF199C500371302 /* 3A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3A.png; sourceTree = "<group>"; };
+		E6D00FA61CF199C500371302 /* 4A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4A.png; sourceTree = "<group>"; };
+		E6D00FA71CF199C500371302 /* 5A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5A.png; sourceTree = "<group>"; };
+		E6D00FA81CF199C500371302 /* 6A .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6A .png"; sourceTree = "<group>"; };
+		E6D00FA91CF199C500371302 /* 7A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7A.png; sourceTree = "<group>"; };
+		E6D00FBA1CF1BB8600371302 /* deals_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deals_btn.png; sourceTree = "<group>"; };
+		E6D00FBC1CF1BC3000371302 /* disabled_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disabled_btn.png; sourceTree = "<group>"; };
+		E6D00FBD1CF1BC3000371302 /* health_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health_btn.png; sourceTree = "<group>"; };
+		E6D00FBE1CF1BC3000371302 /* tourism_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tourism_btn.png; sourceTree = "<group>"; };
+		E6D00FBF1CF1BC3000371302 /* transport_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transport_btn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,8 @@
 		D84D2F771ACD622600B98C3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E6D00FAF1CF1BA1F00371302 /* bottom_icons */,
+				E6D00FA41CF199AF00371302 /* Screens */,
 				D84D2F781ACD622600B98C3A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +138,30 @@
 				D84D2F8E1ACD622600B98C3A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6D00FA41CF199AF00371302 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E6D00FA51CF199C500371302 /* 3A.png */,
+				E6D00FA61CF199C500371302 /* 4A.png */,
+				E6D00FA71CF199C500371302 /* 5A.png */,
+				E6D00FA81CF199C500371302 /* 6A .png */,
+				E6D00FA91CF199C500371302 /* 7A.png */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		E6D00FAF1CF1BA1F00371302 /* bottom_icons */ = {
+			isa = PBXGroup;
+			children = (
+				E6D00FBC1CF1BC3000371302 /* disabled_btn.png */,
+				E6D00FBD1CF1BC3000371302 /* health_btn.png */,
+				E6D00FBE1CF1BC3000371302 /* tourism_btn.png */,
+				E6D00FBF1CF1BC3000371302 /* transport_btn.png */,
+				E6D00FBA1CF1BB8600371302 /* deals_btn.png */,
+			);
+			name = bottom_icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,8 +252,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D00FC21CF1BC3000371302 /* tourism_btn.png in Resources */,
+				E6D00FBB1CF1BB8600371302 /* deals_btn.png in Resources */,
+				E6D00FAB1CF199C500371302 /* 4A.png in Resources */,
+				E6D00FAE1CF199C500371302 /* 7A.png in Resources */,
+				E6D00FAC1CF199C500371302 /* 5A.png in Resources */,
+				E6D00FAD1CF199C500371302 /* 6A .png in Resources */,
 				D84D2F7F1ACD622600B98C3A /* Main.storyboard in Resources */,
+				E6D00FAA1CF199C500371302 /* 3A.png in Resources */,
+				E6D00FC11CF1BC3000371302 /* health_btn.png in Resources */,
 				D84D2F841ACD622600B98C3A /* LaunchScreen.xib in Resources */,
+				E6D00FC01CF1BC3000371302 /* disabled_btn.png in Resources */,
+				E6D00FC31CF1BC3000371302 /* transport_btn.png in Resources */,
 				D84D2F811ACD622600B98C3A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -45,10 +45,10 @@ class BeaconTableViewController : UITableViewController{
         let cell = tableView.dequeueReusableCellWithIdentifier("beaconCell", forIndexPath: indexPath) as UITableViewCell
 
         let major = beacons[indexPath.row].major as NSNumber
-        var majorString = major.stringValue
+        let majorString = major.stringValue
         
         let minor = beacons[indexPath.row].minor as NSNumber
-        var minorString = minor.stringValue
+        let minorString = minor.stringValue
         
         let proximity = beacons[indexPath.row].proximity
         var proximityString = String()
