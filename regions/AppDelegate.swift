@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreLocation
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate{
@@ -88,21 +89,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
             
             case .Inside:
             
-                var text = "Tap here to start coding."
+                var text = "Bun venit la masa 48A!"
             
                 if enteredRegion {
-                    text = "Welcome to Table 48A, birthplace of CTZN."
+                    text = "Eşti la locul potrivit."
                 }
                 
+                let utterance = AVSpeechUtterance(string: text)
+                
+                // set speaker language
+                utterance.voice = AVSpeechSynthesisVoice(language: "ro-RO")
+                
+                let synthesizer = AVSpeechSynthesizer()
+                synthesizer.speakUtterance(utterance)
+            
                 Notifications.display(text)
+            
         
             case .Outside:
           
-                var text = "Why aren't you here? :("
+                var text = "De ce nu eşti aici?"
             
                 if !enteredRegion {
-                    text = "Wait! Don't go into the light."
+                    text = "Stai! Nu pleca!"
                 }
+                let utterance = AVSpeechUtterance(string: text)
+                
+                // set speaker language
+                utterance.voice = AVSpeechSynthesisVoice(language: "ro-RO")
+                
+                let synthesizer = AVSpeechSynthesizer()
+                synthesizer.speakUtterance(utterance)
+            
                 Notifications.display(text)
             
         }
